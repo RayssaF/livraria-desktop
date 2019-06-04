@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="javafx.web">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/build/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/demo/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/generated/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/legacy/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/main/core-api/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/main/core-impl/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/main/protocol-impl/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/main/user-api/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/main/user-impl/java" />
+      <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.16(1)/mysql-connector-java-8.0.16/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" type="SOURCES" />
+  </library>
+</component>
