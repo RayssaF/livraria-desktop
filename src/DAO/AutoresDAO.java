@@ -10,13 +10,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class AutorDAO {
+public class AutoresDAO {
    private Connection conexao;
 
-   public AutorDAO(){
+   public AutoresDAO(){
 
        conexao = new ConnectionFactory().getConnection();
     }
+
+
    public void inserir(Autor autor){
        String sql = "insert into autores (nome, email)" + "values (?, ?)";
 
@@ -57,7 +59,7 @@ public class AutorDAO {
                Autor autor = new Autor();
                autor.setId(resultado.getInt("id"));
                autor.setNome(resultado.getString("nome"));
-               autor.setEmail(resultado.getNString("email"));
+               autor.setEmail(resultado.getString("email"));
 
                autores.add(autor);
 

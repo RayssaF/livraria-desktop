@@ -1,7 +1,7 @@
 package controller;
 
 
-import DAO.AutorDAO;
+import DAO.AutoresDAO;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -15,7 +15,7 @@ public class AutorFormularioController {
 
     public void salvar(){
         Autor aut1 = new Autor();
-        AutorDAO autorDAO = new AutorDAO();
+        AutoresDAO autorDAO = new AutoresDAO();
 
         System.out.println("Nome: " + txfNome.getText());
         System.out.println("Email: " + txfEmail.getText());
