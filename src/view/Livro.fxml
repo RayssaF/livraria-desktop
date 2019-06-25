@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="750.0" style="-fx-background-color: #F0F8FF;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LivroController">
+   <children>
+      <Label layoutX="257.0" layoutY="25.0" prefHeight="37.0" prefWidth="324.0" text="Cadastro de livros">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="103.0" prefHeight="25.0" prefWidth="70.0" text="Titulo:" />
+      <Label layoutX="97.0" layoutY="149.0" text="Data de lançamento:" />
+      <Label layoutX="429.0" layoutY="145.0" prefHeight="25.0" prefWidth="92.0" text="Quantidade:" />
+      <Label layoutX="97.0" layoutY="190.0" text="Preço:" />
+      <Label layoutX="418.0" layoutY="190.0" text="ID da editora:" />
+      <TextField fx:id="txtTitulo" layoutX="149.0" layoutY="103.0" prefHeight="26.0" prefWidth="503.0" />
+      <TextField fx:id="txtData_lancamento" layoutX="235.0" layoutY="144.0" />
+      <TextField fx:id="txtQuantidade" layoutX="515.0" layoutY="144.0" prefHeight="26.0" prefWidth="137.0" />
+      <TextField fx:id="txtPreco" layoutX="150.0" layoutY="185.0" prefHeight="26.0" prefWidth="255.0" />
+      <TextField fx:id="txtIdEditora" layoutX="516.0" layoutY="185.0" prefHeight="26.0" prefWidth="137.0" />
+      <Button fx:id="btnSalvar" layoutX="336.0" layoutY="252.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Salvar" />
+      <Button fx:id="btnDeletar" layoutX="429.0" layoutY="252.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Deletar" />
+      <Button fx:id="btnAtualizar" layoutX="521.0" layoutY="252.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" text="Atualizar" />
+      <TableView fx:id="tableViewLivros" layoutX="43.0" layoutY="375.0" prefHeight="260.0" prefWidth="686.0">
+        <columns>
+            <TableColumn fx:id="tableColumnLivrosTitulo" prefWidth="166.0" text="Titulo" />
+            <TableColumn fx:id="tableColumnLivrosDataDeLancamento" prefWidth="170.0" text="Data de lançamento" />
+          <TableColumn fx:id="tableColumnLivrosQuantidade" minWidth="0.0" prefWidth="125.0" text="Quantidade" />
+          <TableColumn fx:id="tableColumnLivrosPreco" prefWidth="107.0" text="Preço" />
+            <TableColumn fx:id="tableColumnLivrosIdEditora" prefWidth="117.0" text="ID da editora" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

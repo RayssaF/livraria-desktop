@@ -5,6 +5,10 @@ public class Autor {
     private String nome;
     private String email;
 
+
+    public Autor() {
+    }
+
     public int getId() {
         return id;
     }

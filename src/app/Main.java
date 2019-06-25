@@ -8,11 +8,15 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    private double x, y;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/view/autor_formulario.fxml"));
-        primaryStage.setTitle("");
-        primaryStage.setScene(new Scene(root, 550, 330));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/tela_principal.fxml"));
+        primaryStage.setScene(new Scene(root));
+        root.setOnMousePressed(event -> {
+
+        } );
         primaryStage.show();
     }
 
